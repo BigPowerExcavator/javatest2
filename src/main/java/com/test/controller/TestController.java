@@ -13,7 +13,7 @@ public class TestController {
 
     @PostMapping("/test2")
     public String test2(){
-        System.out.println("这里修改了代码");
+        System.out.println("这里修改了代码2");
         return "test2";
     }
 
